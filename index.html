@@ -1,0 +1,389 @@
+<html>
+
+<head>
+	<title>Kebo Keno</title>
+
+	<style>
+		html {
+			scroll-behavior: smooth;
+		}
+
+		.atf-image {
+			width: 100%;
+			height: 800px;
+			object-fit: cover;
+			
+		}
+
+		.mybody {
+			margin: 0px;
+			font-family: "Open Sans", sans-serif;
+			background-color: rgb(42, 68, 71);
+			color: white;
+			background: linear-gradient(to right, #2a4447, #418991);
+
+
+		}
+
+		.texttitle {
+			font-family: "Dancing Script", cursive;
+
+		}
+
+		.texttitle:hover {
+
+			font-size: 1.6em;
+			transition: 0.4s ease;
+			color: rgb(108, 175, 184);
+		}
+
+		#main-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+
+			position: absolute;
+			top: 0;
+
+			left: 0;
+			right: 0;
+			font-family: "Dancing Script", cursive;
+			font-size: 3em;
+
+		}
+
+		.headline {
+			color: rgb(235, 186, 52);
+			filter: drop-shadow(2px 6px 8px rgba(0, 0, 0, 0.9));
+			margin-top: 200px;
+
+		}
+
+		.googlemaps {
+			width: 100%;
+			height: 400px;
+		}
+
+
+		.container {
+			padding-left: 100px;
+			padding-right: 100px;
+			margin-top: 100px;
+			margin-bottom: 100px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+
+
+		}
+
+		.footer {
+			background-color: rgb(38, 38, 38);
+			padding: 100px;
+			display: flex;
+			justify-content: space-between;
+			padding-bottom: none;
+			margin: 0;
+
+		}
+
+		.footer-link {
+			color: white;
+			text-decoration: none;
+
+		}
+
+		.footer-link:hover {
+			text-decoration: underline;
+			color: rgb(237, 117, 47);
+			transition: 0.5s ease;
+		}
+
+		.setmid {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+
+
+
+		.imgcontainer {
+			position: relative;
+			padding-top: 100px;
+		}
+
+
+		.overlay {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background-color: rgba(0, 0, 0, 0.2);
+			color: white;
+			padding: 10px 20px;
+			font-size: 20px;
+			text-align: center;
+			border-radius: 5px;
+		}
+
+
+		.done {
+			width: 100%;
+		}
+
+
+		.menu {
+			display: flex;
+			justify-content: right;
+			align-items: center;
+			padding-right: 80px;
+			width: 100%;
+			margin-top: 0;
+			right: 100px;
+			margin: 0;
+			backdrop-filter: blur(5px);
+
+		}
+
+		.menu a {
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 0.5em !important;
+			margin-left: 32px;
+			filter: drop-shadow(2px 6px 8px rgba(0, 0, 0, 0.9));
+			font-family: "Open Sans", sans-serif;
+
+		}
+
+		.menu a:hover {
+			color: rgb(235, 186, 52);
+			transition: 0.5s ease;
+		}
+
+		.order-btn {
+			background-color: rgb(235, 186, 52);
+			color: black !important;
+			border-radius: 4px;
+			padding: 16px;
+
+		}
+
+		.order-btn:hover {
+			color: white !important;
+			background-color: rgb(255, 211, 92);
+		}
+	</style>
+
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?
+	customize=1&tracking=1&always=1">
+	</script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+		rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="mybody">
+
+
+
+
+
+	<img class="atf-image" src="./img/street.jpg">
+
+	<div id="main-container">
+
+
+		<div class="menu">
+			<a href="#contact">Reservieren</a>
+			<a class="order-btn" href="#onlinefood">Bestelle Online</a>
+			<a href="#contact">Kontakt</a>
+			<a href="#adress">Anfahrt</a>
+			<a href="#ideas">Ideen</a>
+			<a href="#cooking">Selber kochen</a>
+		</div>
+
+
+		<h1 class="headline">Herzlich Willkommen!</h1>
+
+		<p>
+			Hallo, das ist meine erste <a href="https://www.google.de/maps/place/Iserlohner+Str.+6,+33647+Bielefeld/@51.9880424,
+	8.499925,17z/data=!3m1!4b1!4m6!3m5!1s0x47ba3cb9cb0749e7:0xb79621f1441d715f!8m2!3d51.9880424!4d8.499925!16s%2Fg%2F11bw4r2kpl?
+	entry=ttu&g_ep=EgoyMDI0MTAwMS4wIKXMDSoASAFQAw%3D%3D" class="footer-link">Internetseite</a>!
+		</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="imgcontainer">
+		<img class="done" src="./img/breakfast.jpg">
+
+		<div class="overlay">
+			Entdecken Sie in unserem Restaurant ein vielseitiges Menü,
+			das von frischen, regionalen Zutaten inspiriert ist und sowohl
+			traditionelle als auch kreative Gerichte bietet, die Ihren Gaumen verwöhnen.
+		</div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="container">
+		<h2 class="texttitle">Unsere Öffnungszeiten</h2>
+
+		<table class="texttitle">
+			<tr>
+				<td>Mo - Fr:</td>
+				<td>12:00 Uhr - 23:00 Uhr</td>
+			</tr>
+
+			<tr>
+				<td>Sa:</td>
+				<td>10:00 Uhr - 23:00 Uhr</td>
+			</tr>
+			<tr>
+				<td>So:</td>
+				<td>09:00 Uhr - 15:00 Uhr</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="container" id="adress">
+		<h2 class="texttitle">Anfahrt</h2>
+		<p>
+			Unsere Adresse lautet: Iserlohner Straße 6, 33647 Bielefeld
+		</p>
+	</div>
+
+
+	<iframe class="googlemaps" src="https://www.google.com/maps/
+embed?pb=!1m18!1m12!1m3!1d2457.0335352032685!2d8.499925!3d51.988042400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ba3cb9cb0749e7%3A0xb79621f1441d715f!2sIserlohner
+%20Str.%206%2C%2033647%20Bielefeld!5e0!3m2!1sde!2sde!4v1727980283804!
+5m2!1sde!2sde" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+	</iframe>
+
+
+	<div class="container" id="ideas">
+		<h2 class="texttitle">weitere Ideen findest du hier</h2>
+		<p>
+			einfach reinstöbern und inspirieren lassen!
+		</p>
+	</div>
+
+	<iframe src="https://developerakademie.com/" width="100%" height="500"></iframe>
+
+	<div class="container" id="cooking">
+		<h2 class="texttitle">schau dir das leckere Rezept an!</h2>
+		<p>einfach und schnell nachgemacht</p>
+	</div>
+
+
+	<iframe width="100%" height="700px" src="https://www.youtube.com/embed/6G2IUYYDjzA?si=JN_WcZ_BGin51UT_"
+		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+		allowfullscreen>
+	</iframe>
+
+	<div class="container" id="onlinefood">
+		<h2 class="texttitle">Tageskarte</h2>
+		<table>
+			<tr>
+				<td>1</td>
+				<td>Pizza</td>
+				<td>7,99€</td>
+			</tr>
+
+			<tr>
+				<td>2</td>
+				<td>Lasagne</td>
+				<td>11,99€</td>
+			</tr>
+
+			<tr>
+				<td>3</td>
+				<td>Döner</td>
+				<td>3,50€</td>
+			</tr>
+
+			<tr>
+				<td>4</td>
+				<td>Mousse au Chacolat</td>
+				<td>7,99€</td>
+			</tr>
+
+			<tr>
+				<td>5</td>
+				<td>Omelette</td>
+				<td>6,99€</td>
+				<td>Mit frischen Eiern aus dem Bauernhof zubereitet und mit den hausgemachten Gewürzen verfeinert.</td>
+			</tr>
+
+			<tr>
+				<td>6</td>
+				<td>Künefe mit Eis</td>
+				<td>5,99€</td>
+				<td>Mit frischen Mozarella ein intensiver Geschmack. Auch ohne Eis lecker genießen.</td>
+			</tr>
+		</table>
+		<p>
+			Die Tageskarte gibt es auch als Download. Drücke <a href="./Downloads/Tageskarte.pdf" class="footer-link"
+				target="_blank">hier</a>.
+		</p>
+
+	</div>
+
+
+	<div class="container" id="contact">
+		<h2 class="texttitle">Kontakt</h2>
+		<p>
+			So kannst du uns kontaktieren:
+			<br>
+		<div class="setmid">
+			Telefon: <a href="tel:01712154365" class="footer-link">01712154365</a>
+
+			<br>
+			E-Mail: <a href="mailto:workskenan@gmail.com" class="footer-link">workskenan@gmail.com</a>
+			</p>
+		</div>
+	</div>
+
+
+	<div class="container footer">
+		<div>
+			<p>(c) Copyright 2024 Kebo Keno GmbH
+			</p>
+		</div>
+
+		<div>
+			<a href="impressum.html" class="footer-link" target="_blank">Impressum</a> | <a href="datenschutz.html"
+				class="footer-link" target="_blank">Datenschutz</a>
+		</div>
+	</div>
+
+</body>
+
+</html>
